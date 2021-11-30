@@ -1,2 +1,2 @@
 # ChooseCountrie
-Let your users choose their country, fun and simple!
+Let your users choose their countrie, fun and simple!
