@@ -1,0 +1,116 @@
+Prefix: '&8&l[&a&lChoose&b&lCountry&8&l]&7'
+language: en
+
+Inventory:
+  title: '&7Choose you countrie'
+  size: 45
+  type: none
+  items:
+    example1:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Colombia"}'
+          internal: H4sIAAAAAAAA/02PsU7DMBRFHwikYvgMJNY0oUEdEajUUZ1AmiaxB6Q2ddUkz6VKk1LnE2DlMxAbO38EC2JDeGS40j06d7kEgMDJuGwQb6uHRY6SADFtLas6l5sj6NRyVzeV3BAA2OvAYTzFRsKr1J4l0qU1Tz3MNHUNR2MLA1qsL+gq1rMr6lJl/PDSHen+v22vniY95I63FKu7ZqZia+SEKIdhN1OTLW8zzSL6yAtUIsoccZ057IZqPwpz1mLh2x4GCd1xOy5MlK8GpVATh0eGW34eJIOcJaJkhY/MZvki7fYBjmGfzs2Bg9/3j5fnUxq+PX193599/gD8AUWCsIQCAQAA
+      countrie: '&e&lCol&b&lom&c&lbia'
+      slot: 0
+    example2:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Venezuela"}'
+          internal: H4sIAAAAAAAA/02PzU6DQBRGr0aTij6LGVvBdOHC2L+ZdEDakTLsWpgG6J22oVCEBzExce0DGLc+hIl71z6CO3Hn7js5Z/MZAAacTVcF4l22WSaoDDCatVVZnqjdCbRy9ZAXmdoZAHDQgmNvjoWCN1UxEvgxiXyGYUWthsWUoEPT7RVde9XillpUN350Y42r7r/WzOczE2WHxcHaLRbaI+POBNVochHq+30geMlrXto9TORsgFz0L+06JLwXrKRwS6nd0hb9jmwzLVOW8DqKecpNZ8iQt9lfYzrCS+x0oAPtxVJQwivWXfrkGuAUDmnUHDl6/Hzyv1+G5++bn/T59eML4BfdqSYUCgEAAA==
+      countrie: '&e&lVenezuela'
+      slot: 1
+    example3:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Argentina"}'
+          internal: H4sIAAAAAAAA/02PQVLCMBhGfx2cwephgqV1WLhAEZtIitDSNtkVGmzTFBloHZKdK4/jxhPoAZzxBt7AI9ilu+/Ne5vPArDgPCgbpR52T+tCCQusdm3Fri7E/hS6tTjUzU7sLQA46sJJlKpGwLvQBPEkR1lC1Epjt+UwQGqK5fYSbyK9vMEurlrvDd2JHvxrnTqNHcVskvPNrFlWEZrYcyW8eW9VLZ655CUdUcPvaI9LZvvxuPTDccHM8IKZLKdhiaYxNX58e+AjavNw1mchUTSm2jePDjNEcpmV1FwrZhZ9LqlmmgzWCboCOINjnLVHOsGnn/58efHr7/fHy9t9B+APHrqGugoBAAA=
+      countrie: '&b&lArgentina'
+      slot: 2
+    example4:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Mexico"}'
+          internal: H4sIAAAAAAAA/02PTU6DQBzF/xpNED0MhQymiy4aq3awMwgFpsOu0KmlzGBDoQJrr+FCEw9g4ik8kwvpzt37vY/F0wF0uJrntZSP5fM6k0IHvVc7UVaZ2F+AVommqkux1wHgRIPzaClrAd+idYx4sTFWC0emLbZ7DuaGdPF2d42LqE1usI1Vn0/H9qwd/uuiasmQ5JaziQuvTlRkzCxfiqk/SFV44OYtot1dFiuqSEczOiHIneCGb31JGX/h3ZPJTc8kgddRRnNihkevcVnYs5+7QWrR+0iR447xhnROhovBcO2NRgCXcIpX/ZEz4+v35xM9aB+vY5LUb+8Af48SOcoKAQAA
+      countrie: '&2&lMexico'
+      slot: 3
+    example5:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Ecuador"}'
+          internal: H4sIAAAAAAAA/02PQU6DQBhGf40mFb2Jm0EE04WLRmwZ0plaGBBmYULpVKAztaFQgQO4dOPOc3gC917BeBNl6e57eW/zaQAanPnrWsq78mmVS6GB1q+tKKtc7E5gUImmqkux0wDgYADHYSJrAR+idRGPMrSMXJm22OqZ+UjOcLG9wpuwXdxgC6veOyNr2g7/tWaV3JsyNtyMb+b1QoVoanhSOJ6eqmBPO3xJC5lTFmbUHjVx92hwhU1yQTqqbltuu5J2noyZt+Z22pIiQESNczLhRd8884mrZixoCEsN0mGdsLlOfXe4itA1wCkc4mV/5Ogh+RrDt/P5/vZy/gq/PwB/zXgl8AoBAAA=
+      countrie: '&6&lEcuador'
+      slot: 4
+    example6:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Chile"}'
+          internal: H4sIAAAAAAAA/02PQU6DQBhGf40mFXXVK3iAKTiYLrowWmFIBaEj9J9dC9MWOtCmBQO9gRdwa7yBB9AruPYkriWu3L0v79s8DUCDs/GqUuphu56nSmqgtbSR2zKVuxPolLIuq63caQBw0IHjcKoqCe+ycYiYLEkycVTcMLPdfEyUx7LNFSvCZnbDTJa33r42R03/35eW04gqNJylKPxqlodkZARK2kEvzh+fROTXwgpWuEfd5Vi71j0VGRLvNkmRq8zNUBfW0HB5TP88X1DkPnWtMHf3PsHoLvcsJCJbXCIf6qzo9ef+YABwCocsaSOOuq8f+PNir98uvp/Pu59fAL8Pm3P9BgEAAA==
+      countrie: '&c&lChile'
+      slot: 5
+    example7:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Peru"}'
+          internal: H4sIAAAAAAAA/02PS07DMBRFHwikEpixkZR8oENKELVVuyRN0jizNnUVO3ap8kFNFgFbYAFdAhLrQIgFsAgkMmR2j86ZXAPAgIt50Sj1WD5thOIGGP3a8bIWvDqDQc33dVPyygCAowGcxkvVcDjwFptpkpvrBKusRW7P4dxUMyR312gbt6s75CLd+8mtO21H/1qnXi4cxSycp1u/WenYnFqB4pNgmOnomcigIB4VqeebJBwLtsAF65hNpO+QK9SxDgum71uqI4t0Y0U1llRGduoRe+blinZKpDLbE81sGhKxSYYjgHM4Ruv+wMnX74d6e3/4Obx837xeVp8Af+xHHH8CAQAA
+      countrie: '&f&lPeru'
+      slot: 6
+    example8:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"El Salvador"}'
+          internal: H4sIAAAAAAAA/02PT06DQBxGfxpNKnoFL+BqWgKmJi5QlA7pQKEIzKxsy1T+zNSGgnVIvEZXHsO49lruZOnue3lv82kAGlzMq1aIWf26LgTXQOvXltdNwXdnMGj4e9PWfKcBwNEATuOFaDl8ceUiluYoS12xUtjsOZoj4eNye403sVreYxPL3k8sc6rG/1qjWSSGoLqbs03QLmWMpnoo+CQcruTTG7MrnclgROwXRSKr8zoLMYd0tMN7LwkUlWToRUz4UZZTGee+EwqS9H1UGZ4dSmLnFXHcgo4eJU3ikpUPe6rc8TpFtwDncIyz/sjJ3c3vt/Hs4EP7+XH5k14B/AGxJvHkCgEAAA==
+      countrie: '&9&lSalvador'
+      slot: 7
+    example9:
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Uruguay"}'
+          internal: H4sIAAAAAAAA/02PS1KDQBRFn5ZWRXQVrqAhBZqhJZo0lQdKmk8zS6BTfLpjikAU5u7AgQ7dgatw6DbcQBYgQ2f31DmTqwFocLGoWikf6qd1IYUG2rC2om4KsTuDUSNemrYWOw0AjkZwGi5lK+BLdA5J4pxksSPTjloDswWRHi23V3QTdqtbalE1+NmNNe8m/1qzWUam5GMnTzaP7UqFZD72pZj5eqqCPe/x2WPcxDIvkQU92pnkzK+wlLkb4RgZEozuc+xDlZRZ4dlSuYzraFATDb9w7cpAO1FudNfhlBO3T4t1rE8AzuGYZsOJk5/D5+X71HM+guvD7/fbK8AfedAG9wYBAAA=
+      countrie: '&3&lUruguay'
+      slot: 8

@@ -1,0 +1,14 @@
+#This configuration file is for all the messages of the plugin remember that if you find a message that cannot be changed, do not forget to say it in spigot
+
+####################################
+# 	   MESSAGES PLUGIN             #
+####################################
+
+no-permission: '&cNo tienes permisos para hacer esto.'
+reload-message: '&aLos archivos de configuracion han sido recargados satisfactoriamente!.'
+change-countrie: '&aHas establecido tu pais correctamente.'
+number-exception: '&cDebes poner un numero valido!'
+item-error: '&cDebes tener un item en la mano!'
+already-exist-item: '&cEl nombre de ese item ya existe en la config.yml!'
+use-correct-additem: '&cUsa: &7"&e/cc additem <&dname&e> <&breplace&e> <&aslot&e>&7"'
+no-items-inv: '&cNo hay paises los cuales elegir!'
